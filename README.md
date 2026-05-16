@@ -1,25 +1,56 @@
 # supermarket_transactions
-Excel Project # 1 with "Commonwealth Bank" (Task 1: Data Aggregation and Analysis)
 
-Here is the background information on your task:
-CBA is embarking on a long-term vision with trusted partner InsightSpark, a data science specialist.
+## Excel Project #1 – Transaction Data Aggregation & Analysis
 
-This vision is focused around using the huge volumes of CBA’s transactional data, open-source data, and advanced data science to build a platform that will provide insights for businesses, governments, and investors in Australia.
+This project focuses on analyzing supermarket transaction data using **Microsoft Excel** as part of a simulated data engineering assignment with **:contentReference[oaicite:0]{index=0}** and **:contentReference[oaicite:1]{index=1}**.
 
-The data engineering team is responsible for building data engineering pipelines, running analysis on big data, and deploying algorithms into production at scale. This project’s success lies heavily on the data engineering team.
+The objective was to work with a real-world transactional dataset containing **three years of supermarket purchase data across Australia** and perform data aggregation, filtering, and financial analysis using Excel formulas and spreadsheet techniques.
 
-Here is your task: 
-Your first task is to use the provided “CSV Data Set” (you can find it in the Resources) of transactions at a supermarket and analyse the data to answer some questions. We suggest you complete this task in Excel or an open-source alternative like LibreOffice Calc.
+## Project Background
 
-Task details and the answers you need to find are listed below in an email from the team lead:
+Commonwealth Bank is collaborating with InsightSpark to build a data-driven platform that leverages:
 
-Hello,
+- Large-scale transactional data
+- Open-source datasets
+- Advanced analytics and data science
+- Business intelligence for investors, governments, and enterprises
 
-I have provided you with a data set named “supermarket_transactions.csv.” This data set contains three years of transactional data we collected from supermarkets across Australia. 
+As part of the data engineering workflow, this project simulates the analysis of raw transaction data before integration into larger analytics pipelines.
 
-InsightSpark wants to access our data to perform some analysis across Australian supermarkets. Before this can happen, I need you to perform some analysis on the provided CSV data set (a sample of the database) to answer the following questions:
+## Dataset
 
-Across locations, how many apples were purchased in cash?
-How much total cash was spent on these apples?
-Across all payment methods, how much money was spent at the Bakershire store location by non-member customers?
-You should conduct your analysis in Excel or a spreadsheet program of your choice. In your file, document the formulas used to generate your values. When finished, please submit the analysed file for me to review before we share our findings with InsightSpark.
+- **File:** `supermarket_transactions.csv`
+- **Records:** 3 years of supermarket transaction data
+- **Attributes include:**
+  - Product purchased
+  - Payment method
+  - Store location
+  - Membership status
+  - Transaction amount
+
+## Business Questions Solved
+
+Using Excel formulas, filtering, aggregation, and conditional analysis, this project answers:
+
+### 1. Cash Apple Purchases
+- Across all store locations:
+  - How many apples were purchased using **cash**?
+  - What was the total amount spent on those apple purchases?
+
+### 2. Bakershire Non-Member Spending
+- At the **Bakershire** store location:
+  - How much money was spent by **non-member customers** across all payment methods?
+
+## Excel Skills Demonstrated
+
+- Data cleaning and validation
+- Conditional aggregation
+- `SUMIFS()`
+- `COUNTIFS()`
+- Filtering and sorting
+- Structured data analysis
+- Business metric reporting
+
+## Outcome
+
+This project demonstrates how spreadsheet tools can be used to perform meaningful business analysis on transactional datasets, supporting data-driven decision-making in retail and financial services environments.
